@@ -1,0 +1,557 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1649262014376331, "dur":1000, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014377334, "dur":137, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1649262014377521, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1649262014377545, "dur":580, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1649262014378186, "dur":704, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014378890, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582140, "dur":158, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582298, "dur":40, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582338, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582344, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582355, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582358, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582365, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582368, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582375, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582378, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582384, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582387, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582393, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582396, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582403, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582405, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582412, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582427, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014582477, "dur":2508, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1649262014378654, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649262014378968, "dur":4620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649262014383588, "dur":1393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1649262014384998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649262014386182, "dur":16570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1649262014402799, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1649262014402932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649262014403587, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1649262014405192, "dur":152594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649262014557789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649262014557795, "dur":24206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649262014582096, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1649262014582097, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014378614, "dur":344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014378960, "dur":4579, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014383578, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1649262014383593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014383992, "dur":238, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1649262014384232, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1649262014384248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014384831, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1649262014386495, "dur":1289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1649262014387786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014387805, "dur":14704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1649262014402570, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1649262014403571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014403576, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1649262014404855, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1649262014404985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014405021, "dur":5361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1649262014410433, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014410550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014410554, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014411637, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014411777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014411786, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014412536, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014412642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014412648, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014413793, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014413912, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014413918, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014414749, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014414869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014414874, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014415684, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014415784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014415788, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014416551, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014416713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014416717, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014417799, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014417925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014417929, "dur":15855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014433797, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014434197, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014434226, "dur":10031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014444274, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014444597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014444624, "dur":4086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014448727, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014448870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014448876, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014450188, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014450292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014450297, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014451820, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014451983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014451992, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014453061, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014453250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014453255, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014455278, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014455393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014455397, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014457227, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014457398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014457407, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014459410, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014459544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014459550, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014460557, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014460681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014460685, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014462857, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014463188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014463199, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014464815, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014465272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014465276, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014466479, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014466786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014466795, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014467740, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014467985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014468008, "dur":7088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014475111, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014475373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014475378, "dur":25762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014501155, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014501406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014501414, "dur":7018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014508452, "dur":4845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014513300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014513330, "dur":4749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649262014518093, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1649262014518218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014518223, "dur":8289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1649262014526533, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1649262014526569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014526596, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1649262014528670, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1649262014528688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649262014528694, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1649262014530158, "dur":51966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014379085, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014379085, "dur":4468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014383578, "dur":1670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1649262014385268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014386153, "dur":16295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1649262014402526, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1649262014402687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014402696, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1649262014404528, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1649262014404673, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014404690, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1649262014405889, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1649262014406003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014406289, "dur":25325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1649262014431670, "dur":937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014432609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014432615, "dur":12252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014444884, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014445050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014445054, "dur":3797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014448869, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014448977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014448982, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014450520, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014450708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014450714, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014452701, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014452809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014452813, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014454458, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014454604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014454608, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014456840, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014456994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014456999, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014459139, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014459275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014459285, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014460471, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014460594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014460603, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014463016, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014463193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014463198, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014464867, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014465408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014465414, "dur":2153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014467584, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014468032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014468036, "dur":6945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014475015, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014475354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014475373, "dur":25729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014501119, "dur":2317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014503480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014503490, "dur":8258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649262014511763, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1649262014511807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014511830, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1649262014513355, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649262014513376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014513382, "dur":11584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1649262014524978, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1649262014525144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014525152, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1649262014526914, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1649262014526940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014526964, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1649262014528992, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1649262014529007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649262014529012, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1649262014530645, "dur":51493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014378771, "dur":237, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014379008, "dur":4551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014383560, "dur":1708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649262014385270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014386189, "dur":16469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649262014402719, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1649262014402891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014402911, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1649262014404988, "dur":18182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014423173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014433764, "dur":10589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014444437, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014444615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014444624, "dur":4026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014448665, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014448796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014448800, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014450408, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014450529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014450535, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014452422, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014452521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014452525, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014453748, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014454075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014454082, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014455605, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014455790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014455813, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014457206, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014457321, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014457341, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014459571, "dur":1287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014460865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014460870, "dur":3435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014464315, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014464483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014464507, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014465624, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014465895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014465900, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014467522, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014467686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014467695, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014469004, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014469292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014469298, "dur":30997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014500325, "dur":2422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014502750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014502757, "dur":5685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014508457, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014508799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014508805, "dur":3623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649262014512443, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649262014512465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014512471, "dur":2676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649262014515693, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649262014515721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014515731, "dur":9558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1649262014525299, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1649262014525329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014525333, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1649262014527516, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1649262014527534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649262014527555, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1649262014529380, "dur":52757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014378886, "dur":144, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014379031, "dur":4556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014383587, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1649262014383799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014386211, "dur":17260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1649262014403544, "dur":1903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1649262014405453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014405464, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1649262014406109, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014406233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014406336, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014406952, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014407054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014407084, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014407799, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014407889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014407894, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014408422, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014408510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014408514, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014409021, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014409115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014409119, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014410372, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014410487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014410492, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014411662, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014411793, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014411802, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014412592, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014412744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014412751, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014414031, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014414204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014414212, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014414998, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014415085, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014415089, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014415924, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014416068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014416086, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014417230, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014417369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014417373, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014418255, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014418368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014418372, "dur":21576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014439972, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014440113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014440132, "dur":4019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014444170, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014444304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014444308, "dur":4162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014448484, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014448592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014448597, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014449731, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014449835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014449840, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014451577, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014451683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014451687, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014452736, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014452839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014452858, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014454367, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014454572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014454576, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014456718, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014456842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014456847, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014457911, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014458073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014458078, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014459778, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014459891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014459895, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014460808, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014460904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014460908, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014463295, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014463422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014463428, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014465399, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014465621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014465638, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014467523, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014467777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014467782, "dur":6988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014474794, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014474982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014474990, "dur":25579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014500585, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014500744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014500753, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014501919, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014502328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014502335, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014504199, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014504994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014505002, "dur":7704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1649262014512717, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1649262014512728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014512732, "dur":3935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1649262014516682, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1649262014516702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014516709, "dur":9814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1649262014526542, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1649262014526633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014526641, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1649262014528286, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1649262014528305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1649262014528309, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1649262014529925, "dur":52198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014379201, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014379202, "dur":4386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014383589, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1649262014383810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014386140, "dur":17470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1649262014403674, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1649262014404129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014404137, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1649262014405691, "dur":30922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1649262014436616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014436621, "dur":7917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1649262014444592, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014444718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014444727, "dur":3928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014448668, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014448787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014448791, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014450367, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014450460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014450465, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014452237, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014452366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014452372, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014454263, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014454390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014454400, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014455994, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014456112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014456116, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014457389, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014457520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014457541, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014459531, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014459664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014459672, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014460806, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014460929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014460933, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014463282, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014463432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014463438, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014465423, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014465893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014465899, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014467676, "dur":834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014468512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014468547, "dur":31238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014499809, "dur":1011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014500824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014500833, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014502978, "dur":600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014503581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014503587, "dur":8107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014511713, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014512283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014512292, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1649262014513191, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1649262014513212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014513221, "dur":12267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1649262014525503, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1649262014525523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014525531, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1649262014527460, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1649262014527477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014527482, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1649262014529237, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1649262014529354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1649262014529359, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1649262014530244, "dur":51894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649262014379317, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649262014379317, "dur":4272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649262014383589, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1649262014383805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649262014386184, "dur":17282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1649262014403545, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1649262014403883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649262014403909, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1649262014405094, "dur":84544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649262014489642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649262014489665, "dur":15980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649262014505729, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649262014505896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649262014505900, "dur":6272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1649262014512189, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":7, "ts":1649262014512212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649262014512220, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":7, "ts":1649262014515841, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1649262014515863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649262014515871, "dur":9497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1649262014525387, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1649262014525459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649262014525467, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1649262014526973, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1649262014526983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1649262014526987, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1649262014529662, "dur":52464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014379469, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014379470, "dur":4089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014383559, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1649262014383805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014386353, "dur":17188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1649262014403602, "dur":1379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1649262014404987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014405027, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1649262014405710, "dur":16797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone.exe" }}
+,{ "pid":12345, "tid":8, "ts":1649262014422512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014422520, "dur":12073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone.exe" }}
+,{ "pid":12345, "tid":8, "ts":1649262014434617, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014434722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014434740, "dur":9214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014443976, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014444157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014444169, "dur":3225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014447411, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014447560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014447566, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014449003, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014449113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014449117, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014450526, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014450621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014450625, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014452651, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014452772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014452783, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014454462, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014454641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014454664, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014456797, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014457102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014457113, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014459198, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014459450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014459459, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014460763, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014460900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014460905, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014463248, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014463421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014463428, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014465378, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014465572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014465581, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014466955, "dur":2983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014469940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014469944, "dur":30344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014500310, "dur":3407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014503720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014503726, "dur":8253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1649262014511994, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1649262014512015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014512024, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1649262014514696, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649262014514720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014514731, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649262014516070, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649262014516087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014516092, "dur":10761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649262014526873, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649262014526888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1649262014526893, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/SCHOOL/Game Production 4/FBERT BUILD M3(MANDIP MINHAS)/QBert_Clone_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1649262014529955, "dur":52166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649262014586455, "dur":1841, "ph":"X", "name": "ProfilerWriteOutput" }
+,
